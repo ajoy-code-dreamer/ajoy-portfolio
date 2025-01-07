@@ -895,7 +895,7 @@ html {
 }
 
 .main-header .logo img {
-  width: 120px;
+  width: 100px;
 }
 
 .main-header .nice-select .current {
@@ -1187,7 +1187,7 @@ html {
 }
 
 .about-image-part2 {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .about-image-part {
   text-align: center;
@@ -1210,7 +1210,7 @@ html {
 }
 
 .about-content-part-bottom {
-  margin-top: 45px;
+  margin-top: 30px;
 }
 
 .about-content-part-bottom h2 {
@@ -1227,6 +1227,10 @@ html {
 .about-image-part h2 {
   font-size: 40px;
 }
+.brand_owner {
+  color: var(--primary-color);
+  font-weight: 700;
+}
 
 .about-content-part h2 {
   font-size: 42px;
@@ -1238,7 +1242,7 @@ html {
 }
 
 .about-content-part h2 span {
-  -webkit-text-stroke: 1px #000;
+  -webkit-text-stroke: 2px #448c74;
   color: transparent;
 }
 
@@ -1343,8 +1347,9 @@ html {
 }
 
 .scroller__inner h4 {
-  margin-right: 30px;
+  margin-right: 20px;
   margin-bottom: 0;
+  text-transform: capitalize;
 }
 
 .scroller[data-animated="true"] {
