@@ -422,7 +422,7 @@ html {
 .menu-btns a.theme-btn:hover {
   background: var(--primary-color);
   color: #fff;
-  border: 1px var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .theme-btn:focus {
@@ -2375,7 +2375,7 @@ body.loaded {
 }
 
 .preloader .preloader-heading .load-text {
-  font-size: 20px;
+  font-size: 60px;
   font-weight: 200;
   letter-spacing: 15px;
   color: #fff;
